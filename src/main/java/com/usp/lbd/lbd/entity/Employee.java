@@ -42,6 +42,6 @@ public class Employee extends Auditable implements Serializable {
     private char gender;
 
     @Column(name = "DATA_NASCIMENTO")
-    private Date bornDate;
+    private Date birthDate;
 
 }

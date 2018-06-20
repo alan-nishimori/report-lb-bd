@@ -16,7 +16,7 @@ import java.rmi.server.UID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "ITEMVENDA")
-public class SellItem extends Auditable implements Serializable {
+public class SaleItem extends Auditable implements Serializable {
 
     @Id
     @Column(name = "ID_ITEM")

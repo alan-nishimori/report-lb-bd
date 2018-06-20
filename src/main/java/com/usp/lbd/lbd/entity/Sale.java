@@ -17,7 +17,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "VENDA")
-public class Sell extends Auditable implements Serializable {
+public class Sale extends Auditable implements Serializable {
 
     @Id
     @Column(name = "ID_VENDA")
@@ -48,9 +48,9 @@ public class Sell extends Auditable implements Serializable {
     private Date sendDate;
 
     @Column(name = "VALOR_FRETE")
-    private float shippingCost;
+    private BigDecimal shippingCost;
 
     @Column(name = "TOTAL")
-    private float total;
+    private BigDecimal total;
 
 }
